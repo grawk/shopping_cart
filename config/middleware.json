@@ -3,6 +3,11 @@
         "static": {
             "arguments": [ "path:./.build" ]
         },
+        "language": {
+            "enabled": true,
+            "priority": 50,
+            "module": "path:./lib/language"
+        },
         "router": {
             "arguments": [
                 {
