@@ -15,5 +15,9 @@
         "view engine": "dust",
         "views": "path:./public/templates",
         "route": "/"
+    },
+    "databaseConfig": {
+        "host": "localhost",
+        "database": "test"
     }
 }
